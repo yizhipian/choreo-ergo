@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '986e0d08-b275-4dd3-9e75-f3094b36fa2a'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.ziliaoku.eu.org';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'AbcGps7grVVnCCXLLO';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cho.yizhipian.eu.org';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZmI1MDA3Njg4NmNkZGRhODU3MjZiYzg4MTkxZjBiZTMiLCJ0IjoiZDE1ODEzYjItZWE1OS00ZmYwLTgxYTgtN2MzZmRlOWMzNTBiIiwicyI6Ik5tUXpOemcxTURndE9UazJNUzAwWVRFM0xXRXpOV0l0TlRkaE1XTXdOVFUxTjJaaiJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cho.mycode.onflashdrive.app';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOTc2M2QwYTdmNDBmM2VhZGI4NDc5ODc4Zjc1ZjI3YWYiLCJ0IjoiMTg3ZGRjMDEtYzdkZi00ZWU4LWE5MTMtMWQ5ZjdhMGE5YjdhIiwicyI6Ik5HVTNOR1U0WW1NdE5XWXpOaTAwTWpsaExUbGtaVGN0TWpSallqQTVaV05oWVdVeSJ9';
 const CFIP = process.env.CFIP || 'government.se';
 const NAME = process.env.NAME || 'Choreo';
 
